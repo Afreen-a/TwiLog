@@ -5,7 +5,7 @@
 ## About
 
 This project is a scaled down version of blogging website.
-It's a platform to share and gain knowledge.One can also share their blog's link on twitter using a web intent provided on this platform.
+It's a platform to share and gain knowledge.One can also share their blog's link on twitter using a web intent provided on this website.
 
 ## Built With:
 
@@ -23,7 +23,7 @@ It's a platform to share and gain knowledge.One can also share their blog's link
 
 - Editor to write the blogs.
 - Tweet web intent - to share your blog on twitter.
-- Can add headings, paragrahs, images and cover page to your blogs.
+- Can add headings, paragraphs, images and cover page to your blogs.
 - Displays publish date of blogs.
 - Reponsive and dynamic blog pages.
 
