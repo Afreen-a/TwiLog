@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog : Homepage</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <!-- <link rel="shortcut icon" href="../public/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../public/favicon.ico" type="image/x-icon"> -->
+    <script src="https://kit.fontawesome.com/a4231e0259.js" crossorigin="anonymous"></script>
+    
+   
+</head>
+<body>
+
+    <nav class="navbar">
+        
+          
+          
+              <div class="menu-btns">
+                <a href="/">
+                  <img src="img/logo.png" class="logo" alt=""></a>
+      
+                <img
+                  class="ham-menu"
+                  src="img/icon-hamburger.svg"
+                  alt="menu button"
+                />
+                <img
+                  class="close-btn"
+                  src="img/icon-close.svg"
+                  alt="close button"
+                />
+              </div>
+        <div class="links-container ">
+            <li class="link-item"><a href="/" class="link">home</a></li>
+            <li class="link-item"><a href="about.html" class="link">about</a></li>
+            <li class="link-item"><a href="/editor" class="link">editor</a></li>
+            <li class="link-item"><a href="#blog-cards" class="link">blogs</a></li>
+        </div>
+        
+      
+    </nav>
+
+    <header class="header">
+ 
+          <div class="img-sec">
+
+            <div class="svg"> 
+              <svg
+           width="500"
+           height="600"
+           viewBox="0 0 1000 1000"
+           xmlns="http://www.w3.org/2000/svg"
+           class="svg"
+         >
+           <defs>
+             
+             
+             
+             <radialGradient
+             id="radialGradientId"
+             r="100%"
+             cx="105%"
+             cy="67%"
+           >
+             <stop offset="0%"  stop-color="#6e15bc" />
+                   <stop offset="100%"  stop-color="#4aa1e0" />
+           </radialGradient>
+             
+             
+             
+             <clipPath id="shape">
+               <path fill="currentColor" d="M817.5,663.5Q689,827,504.5,819.5Q320,812,162,656Q4,500,127.5,284.5Q251,69,488.5,89Q726,109,836,304.5Q946,500,817.5,663.5Z"></path>
+             </clipPath>
+           </defs>
+         
+           
+         
+           <g  clip-path="url(#shape)">
+             <path fill="url(#radialGradientId)" d="M817.5,663.5Q689,827,504.5,819.5Q320,812,162,656Q4,500,127.5,284.5Q251,69,488.5,89Q726,109,836,304.5Q946,500,817.5,663.5Z" />
+           </g>
+         
+           
+         
+              </svg>
+            </div>
+            <img src="img/header imgs/header.png" class="header-img" alt="">
+
+        </div>
+
+
+        <div class="content"> 
+         
+          <h1 class="heading">
+          <span class="small">welcome to the world of</span>
+            blog writing
+           </h1>
+     
+            <a href="/editor" class="btn">write a blog</a>
+    
+   
+        </div>
+      
+        
+      
+       
+    </header>
+
+    
+
+    <!-- blog section -->
+    
+    <div class="blogs-heading">
+      <h1 class="blogs-heading">BLOGS</h1>
+    </div>
+   
+    <section id="blog-cards" class="blogs-section">
+    
+        <!-- <div class="blog-card">
+            <img src="img/header.png" class="blog-image" alt="">
+            <h1 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h1>
+            <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt fugiat quos porro repellat harum. Adipisci tempora corporis rem cum.</p>
+            <a href="/" class="btn dark">read</a>
+        </div> -->
+    </section>
+
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-circle-up"></i>
+    </a>
+
+    
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script type="module" src="js/firebase.js"></script>
+    <script type="module" src="js/home.js"></script>
+    <script type="module" src="js/scroll.js"></script>
+    <script src="js/nav.js"></script>
+
+    
+    
+</body>
+ 
+
+</html>
