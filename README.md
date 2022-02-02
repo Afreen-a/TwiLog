@@ -1,6 +1,6 @@
 # TWILOG
 
-![App Screenshot](https://im3.ezgif.com/tmp/ezgif-3-0b5e708883.png)
+![App Screenshot](https://res.cloudinary.com/dctlaz4pb/image/upload/v1643836423/twilog-ss_lqn2zp.png)
 
 ## About
 
